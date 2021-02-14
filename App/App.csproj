@@ -10,7 +10,7 @@
     <PackageOutputPath>../Nugets</PackageOutputPath>
     <ToolCommandName>UpdateGlobalTools</ToolCommandName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>A net global tool helping to update all global tools</Description>
+    <Description>A net global tool helping to update all net global tools</Description>
   </PropertyGroup>
 
   <ItemGroup>
