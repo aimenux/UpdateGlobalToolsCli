@@ -30,7 +30,7 @@ namespace App.Helpers
         {
             const string name = @"dotnet";
             var arguments = File.Exists(nugetConfigFile)
-                ? @"tool update -g {0} --configfile {nugetConfigFile}"
+                ? $"tool update -g {{0}} --configfile {nugetConfigFile}"
                 : @"tool update -g {0} --ignore-failed-sources";
 
             foreach (var globalTool in globalTools.Where(x => !x.IsCurrentTool))

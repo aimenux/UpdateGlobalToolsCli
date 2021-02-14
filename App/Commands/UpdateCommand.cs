@@ -26,7 +26,7 @@ namespace App.Commands
         [Option("-h|--help", "Show help information.", CommandOptionType.NoValue)]
         public bool ShowHelp { get; set; }
 
-        [Option("-f|--file", "Nuget configuration file to use.", CommandOptionType.SingleOrNoValue)]
+        [Option("-f|--file", "Nuget configuration file to use.", CommandOptionType.SingleValue)]
         public string NugetConfigFile { get; set; }
 
         public void OnExecute(CommandLineApplication app)
