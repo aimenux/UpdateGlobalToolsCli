@@ -1,3 +1,5 @@
+![.NET](https://github.com/aimenux/UpdateGlobalToolsCli/workflows/.NET/badge.svg)
+
 # UpdateGlobalToolsCli
 ```
 Providing net global tool in order to update all net global tools

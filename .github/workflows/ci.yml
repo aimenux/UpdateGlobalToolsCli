@@ -23,3 +23,9 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Publish UpdateGlobalTools
+      uses: brandedoutcast/publish-nuget@v2.5.5
+      with:
+          PACKAGE_NAME: UpdateGlobalTools
+          PROJECT_FILE_PATH: App/App.csproj
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
