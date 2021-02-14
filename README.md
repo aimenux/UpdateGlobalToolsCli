@@ -21,6 +21,6 @@ Providing net global tool in order to update all net global tools
 > - `dotnet tool uninstall -g UpdateGlobalTools`
 >
 > To install global tool from [nuget source](https://www.nuget.org/packages/UpdateGlobalTools), type these command :
-> - `dotnet tool install --global UpdateGlobalTools --ignore-failed-sources`
+> - `dotnet tool install -g UpdateGlobalTools --ignore-failed-sources`
 
 **`Tools`** : vs19, net 5.0
